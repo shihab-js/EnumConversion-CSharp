@@ -19,7 +19,11 @@ namespace EnumConversion
         static void Main(string[] args)
         {
             //convert day to int
-            int day = (int)WeekDays.Friday;
+            int dayNum = (int)WeekDays.Friday;
+            Console.WriteLine(dayNum);
+
+            // Convert int to day
+            var day = (WeekDays) 6;
             Console.WriteLine(day);
             
         }
