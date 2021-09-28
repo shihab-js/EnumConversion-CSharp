@@ -18,6 +18,9 @@ namespace EnumConversion
 
         static void Main(string[] args)
         {
+            //convert day to int
+            int day = (int)WeekDays.Friday;
+            Console.WriteLine(day);
             
         }
     }
