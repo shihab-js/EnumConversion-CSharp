@@ -25,6 +25,8 @@ namespace EnumConversion
             // Convert int to day
             var day = (WeekDays) 6;
             Console.WriteLine(day);
+
+            Console.WriteLine("Program Done..");
             
         }
     }
